@@ -25,7 +25,7 @@ const Education = () => {
           <div className={styles.study_flex}>
           
             <div className={styles.study_left}>
-              <Image className={styles.study_img} src={islington_img} />
+              <Image alt='islington college' className={styles.study_img} src={islington_img} />
             </div>
             <div className={styles.study_right}>
               <p className={styles.date}>September 01 - April 2015</p>
@@ -37,7 +37,7 @@ const Education = () => {
           <div className={styles.study_flex}>
           
             <div className={styles.study_left}>
-              <Image className={styles.study_img} src={crimson_img} />
+              <Image alt='Crimson Technical College' className={styles.study_img} src={crimson_img} />
             </div>
             <div className={styles.study_right}>
               <p className={styles.date}>September 01 - April 2015</p>
@@ -49,7 +49,7 @@ const Education = () => {
           <div className={styles.study_flex}>
           
             <div className={styles.study_left}>
-              <Image className={styles.study_img} src={oxford_img} />
+              <Image alt='Oxford School' className={styles.study_img} src={oxford_img} />
             </div>
             <div className={styles.study_right}>
               <p className={styles.date}>September 01 - April 2015</p>

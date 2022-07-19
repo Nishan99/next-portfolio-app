@@ -15,11 +15,11 @@ const Header = () => {
       <div className={styles.container}>
         <div className={styles.header_left}>
           <p>Hi,</p>
-          <p>I'm Nishan</p>
+          <p>I&#39;m Nishan</p>
           <p>
             A Passionate Front End Developer who focuses on writing clean,
             elegant and efficent code. This is my site, where i share whatever
-            side projects I've been working on.
+            side projects I&#39;ve been working on.
           </p>
           <div className={styles.social_icons}>
             <a href="https://github.com/Nishan99" target="_blank" rel="noreferrer">

@@ -1,7 +1,7 @@
 import styles from "../styles/Header.module.css";
-import Head from "next/head";
+
 import Image from "next/image";
-import Script from "next/script";
+
 import Lottie from "lottie-react";
 import animation from "../assets/animation.json";
 import Github from "../assets/github.svg";
@@ -12,9 +12,6 @@ import Link from "next/link";
 const Header = () => {
   return (
     <div className={styles.header}>
-      <Head>
-        <Script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></Script>
-      </Head>
       <div className={styles.container}>
         <div className={styles.header_left}>
           <p>Hi,</p>
@@ -25,7 +22,7 @@ const Header = () => {
             side projects I've been working on.
           </p>
           <div className={styles.social_icons}>
-            <a href="https://github.com/Nishan99" target="_blank">
+            <a href="https://github.com/Nishan99" target="_blank" rel="noreferrer">
               <Image
                 alt="Github"
                 className={styles.icon}
@@ -34,7 +31,7 @@ const Header = () => {
                 src={Github}
               />
             </a>
-            <a href="https://www.linkedin.com/in/nishanpaudel/" target="_blank">
+            <a href="https://www.linkedin.com/in/nishanpaudel/" target="_blank" rel="noreferrer">
               <Image
                 alt="LinkedIn"
                 className={styles.icon}
@@ -57,7 +54,7 @@ const Header = () => {
             <Link href="#contact">
               <button>Contact Me</button>
             </Link>
-            <a href="/cv.pdf" target="_blank">
+            <a href="/cv.pdf" target="_blank" rel="noreferrer">
               <button>View CV</button>
             </a>
           </div>

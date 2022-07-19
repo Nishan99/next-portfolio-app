@@ -35,8 +35,8 @@ const Contact = () => {
     <div id="contact" className={styles.contact}>
       <h1>Contact</h1>
       <p>
-        I’m interested in freelance opportunities – any kinds of projects.
-        However, if you have other request or question, feel free to contact me.
+        I&apos;m interested in freelance opportunities,  any kinds of projects.
+        However, if you have other request or question feel free to contact me.
       </p>
       <div className={styles.contact_main}>
         <div className={styles.contact_left}>

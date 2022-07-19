@@ -1,0 +1,67 @@
+import { TbMinusVertical } from "react-icons/tb";
+import styles from "../styles/Education.module.css";
+import Education_animation from "../assets/Education.json";
+import line_animation from "../assets/line_animation.json";
+import Lottie from "lottie-react";
+import Image from "next/image";
+import islington_img from "../assets/islington_img.png";
+import crimson_img from "../assets/crimson_img.jpg";
+import oxford_img from "../assets/oxford_img.jpg";
+
+const Education = () => {
+  return (
+    <div id='education' className={styles.education_main}>
+      <h1 className={styles.education_heading}>Education</h1>
+      <div className={styles.education}>
+        <div className={styles.education_left}>
+          <Lottie
+            className={styles.edu_animation}
+            height={10}
+            width={10}
+            animationData={Education_animation}
+          />
+        </div>
+        <div className={styles.education_right}>
+          <div className={styles.study_flex}>
+          
+            <div className={styles.study_left}>
+              <Image className={styles.study_img} src={islington_img} />
+            </div>
+            <div className={styles.study_right}>
+              <p className={styles.date}>September 01 - April 2015</p>
+              <p className={styles.college}>Islington College</p>
+              <p className={styles.std_level}>Bachlor in Computing</p>
+              <li>Kamal Pokhari, Kathmandu</li>
+            </div>
+          </div>
+          <div className={styles.study_flex}>
+          
+            <div className={styles.study_left}>
+              <Image className={styles.study_img} src={crimson_img} />
+            </div>
+            <div className={styles.study_right}>
+              <p className={styles.date}>September 01 - April 2015</p>
+              <p className={styles.college}>Crimson Technical College</p>
+              <p className={styles.std_level}>Diploma in Computer Engineering</p>
+              <li>Devinagar, Butwal</li>
+            </div>
+          </div>
+          <div className={styles.study_flex}>
+          
+            <div className={styles.study_left}>
+              <Image className={styles.study_img} src={oxford_img} />
+            </div>
+            <div className={styles.study_right}>
+              <p className={styles.date}>September 01 - April 2015</p>
+              <p className={styles.college}>Oxford Secondary School</p>
+              <p className={styles.std_level}>SLC</p>
+              <li>Butwal, Sukkhanagar</li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Education;

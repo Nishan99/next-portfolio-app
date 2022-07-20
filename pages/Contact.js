@@ -24,6 +24,7 @@ const Contact = () => {
       .then(
         (response) => {
           console.log("SUCCESS!",response.text);
+          alert("Message Sent Sucessfully")
         },
         (err) => {
           console.log("FAILED...",err.text);
@@ -35,7 +36,7 @@ const Contact = () => {
     <div id="contact" className={styles.contact}>
       <h1>Contact</h1>
       <p>
-        I&apos;m interested in freelance opportunities,  any kinds of projects.
+        I&apos;m interested in any kind of opportunities,  any kinds of projects.
         However, if you have other request or question feel free to contact me.
       </p>
       <div className={styles.contact_main}>

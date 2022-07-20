@@ -57,7 +57,7 @@ const Projects=()=>{
             React.js
           </li>
             </div>
-            <Link href="https://nishan-dahboard.netlify.app/">
+            <Link href="https://business-project.netlify.app/">
             <button className={styles.project_btn}>View Project</button>
             </Link>
           </div>
@@ -80,7 +80,7 @@ const Projects=()=>{
           </li>
          
             </div>
-            <Link href="https://nishan-dahboard.netlify.app/">
+            <Link href="https://upbeat-shannon-25ad23.netlify.app/">
             <button className={styles.project_btn}>View Project</button>
             </Link>
           </div>

@@ -5,7 +5,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 60px;
+  padding: 40px 60px 80px;
+  /* margin-top: 80px; */
 }
 .skill h1 {
   margin: 0px;

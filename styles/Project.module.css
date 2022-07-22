@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: hidden !important;
   
   
 }
@@ -14,27 +15,25 @@
   margin:0px;
   text-align: center;
   color:#08FDD8;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 
 }
 
 .project_each{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.project_each:hover{
-  /* background:#2ecc71;   */
-  /* box-shadow: rgba(8,253,216,0.1) 0px 1px 1px 0px inset, rgba(8,253,216,0.25) 0px 50px 100px -20px, rgba(255,255,255,0.6) 0px 30px 60px -30px; */
-  /* box-shadow: rgba(8,253,216,0.9) 0px 10px 50px; */
-}
+
 
 
 .project_main{
   display: flex;
   justify-content: space-between;
   /* flex-wrap: wrap; */
-  padding:20px 50px;
+  padding:20px 50px 60px;
+ 
 }
 .project_each{
+  width:30%;
   padding:20px 30px;
   margin:10px 20px;
 }
@@ -43,6 +42,7 @@
   font-size:30px;
   font-weight: 600;
   margin:0px;
+  letter-spacing: 2px;
   text-align: center  ;
 }
   .project_each h3::after{
@@ -50,7 +50,7 @@
     display: block;
     width:300px;
     margin:0px auto;
-    height:3px;
+    height:5px;
     background-color: #08FDD8;
   }
 
@@ -58,12 +58,14 @@
   display: flex;
   justify-content: flex-start;
   list-style: none;
+  /* margin-bottom: 10px; */
 }
  
 .project_icons li{
     display: flex;
     flex-direction: column;
     margin:0px 10px;
+    color:#999;
   }
   .project_icons li:hover{
     color:#fff;
@@ -71,6 +73,7 @@
 
   .tech_icon{
     color:#868E96;
+    margin-bottom:10px;
   }
   .tech_icon:hover{
     color:#08FDD8;
@@ -108,6 +111,69 @@
     color:#1d1d1d !important;
 
   } */
+
+  @media screen and (max-width:1216px){
+    .project{
+      height: auto;
+    }
+    .project h1{
+      font-size:60px;
+      font-weight: 700;
+      margin:0px;
+      text-align: center;
+      color:#08FDD8;
+      letter-spacing: 2px;
+    
+    }
+    .project_main{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding:20px 80px 60px;
+     
+    }
+    .project_each{
+      width:400px;
+      padding:20px 40px;
+      margin:30px 20px;
+    }
+    .project_each h3{
+      color:#fff;
+      font-size:25px;
+      font-weight: 600;
+      margin:0px;
+      letter-spacing: 2px;
+      text-align: center  ;
+    }
+     .project_each h3::after{
+        content:'';
+        display: block;
+        width:300px;
+        margin:0px auto;
+        height:5px;
+        background-color: #08FDD8;
+      }
+    .project_icons li{
+        display: flex;
+        flex-direction: column;
+        margin:0px 10px;
+        color:#999;
+      }
+     .tech_icon{
+        color:#868E96;
+        margin-bottom:10px;
+      }
+     .project_desc{
+        font-size:18px;
+        color:#fff;
+    
+      }
+      .project_title{
+        font-size:18px;
+        color:#fff;
+      }
+
+  }
 
   @media screen and (max-width:858px){
     .project{

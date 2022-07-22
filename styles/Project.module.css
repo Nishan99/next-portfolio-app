@@ -1,5 +1,5 @@
 .project{
-  height:100vh;
+  height:auto;
   background:#1d1d1d;
   display: flex;
   flex-direction: column;
@@ -31,7 +31,7 @@
 .project_main{
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   padding:20px 50px;
 }
 .project_each{

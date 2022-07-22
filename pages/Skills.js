@@ -25,51 +25,51 @@ const Skills = () => {
         <p>CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK</p>
         <div className={styles.stacks}>
           <li>
-            <AiFillHtml5 size="55px" className={styles.stack_icon} />
+            <AiFillHtml5  className={styles.stack_icon} />
             HTML5
           </li>
           <li>
-            <DiCss3 size="55px" className={styles.stack_icon} />
+            <DiCss3  className={styles.stack_icon} />
             CSS3
           </li>
           <li>
-            <BsFillBootstrapFill size="55px" className={styles.stack_icon} />
+            <BsFillBootstrapFill  className={styles.stack_icon} />
             Bootstrap
           </li>
           <li>
-            <FaSass size="55px" className={styles.stack_icon} />
+            <FaSass  className={styles.stack_icon} />
             SASS
           </li>
           <li>
-            <IoLogoJavascript size="55px" className={styles.stack_icon} />
+            <IoLogoJavascript  className={styles.stack_icon} />
             Javascript
           </li>
           <li>
-            <FaReact size="55px" className={styles.stack_icon} />
+            <FaReact  className={styles.stack_icon} />
             React.js
           </li>
           <li>
-            <SiNextdotjs size="55px" className={styles.stack_icon} />
+            <SiNextdotjs  className={styles.stack_icon} />
             Next.js
           </li>
           <li>
-            <DiNodejs size="55px" className={styles.stack_icon} />
+            <DiNodejs  className={styles.stack_icon} />
             Node
           </li>
           <li>
-            <SiExpress size="55px" className={styles.stack_icon} />
+            <SiExpress  className={styles.stack_icon} />
             Express
           </li>
           <li>
-            <DiNpm size="55px" className={styles.stack_icon} />
+            <DiNpm  className={styles.stack_icon} />
             Npm
           </li>
           <li>
-            <FaYarn size="55px" className={styles.stack_icon} />
+            <FaYarn  className={styles.stack_icon} />
             Yarn
           </li>
           <li>
-            <VscTerminalCmd size="55px" className={styles.stack_icon} />
+            <VscTerminalCmd  className={styles.stack_icon} />
             Cmd
           </li>
         </div>

@@ -1,9 +1,13 @@
 .header{
   height: 100vh;
-  background:  #1d1d1d;;
+  background:  #1d1d1d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container{
+  padding:0px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,12 +17,14 @@
   /* color:#fff; */
   padding:40px 40px;
 }
+
 .header_left p{
   font-size:80px;
   font-weight: 900;
   color:#fff;
   letter-spacing: 2px;
   margin:0px 0px;
+  
 }
 .header_left p:nth-child(3){
   font-size:20px;
@@ -62,3 +68,89 @@
 .contact_btn button:nth-child(1){
   margin-right: 20px;
 }
+
+@media screen and (max-width:1279px){
+  
+  .header_left p{
+    font-size:70px;
+   
+    
+  }
+  .header_left p:nth-child(3){
+    font-size:20px;
+    font-weight: 500;
+    width:600px;
+    text-align: justify;
+  }
+}
+  @media screen and (max-width:1211px){
+    .header_left p{
+      font-size:60px;
+     
+      
+    }
+    .header_left p:nth-child(3){
+      font-size:20px;
+      font-weight: 500;
+      width:500px;
+      text-align: justify;
+    }
+
+  }
+      @media screen and (max-width:1090px){
+        .header_left p{
+          font-size:55px;
+         
+          
+        }
+        .header_left p:nth-child(3){
+          font-size:18px;
+          font-weight: 500;
+          width:400px;
+          text-align: justify;
+        }
+
+      }
+          @media screen and (max-width:999px){
+            .header{
+              /* height: auto; */
+              background:  #1d1d1d;
+            }
+            .container{
+              /* flex-direction: column; */
+              padding:0px 10px;
+            }
+            .header_left{
+              /* color:#fff; */
+              padding:40px 40px;
+            }
+            .header_left p{
+              font-size:70px;
+              font-weight: 900;
+              color:#fff;
+              letter-spacing: 2px;
+              margin:0px 0px;
+              
+            }
+            .header_left p:nth-child(3){
+              text-align: left;
+              font-size:20px;
+              font-weight: 500;
+              width:700px;
+              /* text-align: justify; */
+            }
+            .header_right{
+              display: none;
+              width:300px;
+              height:300px;
+            }
+            .header_right .animation{
+              width:100%;
+              height:100%;
+              object-fit:cover;
+            }
+
+          }
+              @media screen and (max-width:858px){
+                
+              }

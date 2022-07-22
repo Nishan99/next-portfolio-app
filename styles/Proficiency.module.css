@@ -1,33 +1,127 @@
-.proficiency{
-  height:100vh;
-  background:#1D1D1D;
+.proficiency {
+  height: 100vh;
+  background: #1d1d1d;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:0px 80px;
+  padding: 0px 80px;
 }
-.Proficiency_left{
-  margin-right:60px;
+.Proficiency_left {
+  margin-right: 60px;
 }
-.proficiency h1{
-  margin:0px;
+.proficiency h1 {
+  margin: 0px;
   font-size: 60px;
-  color:#08FDD8;
+  color: #08fdd8;
 }
 
-.Proficiency_right{
-  width:800px;
+.Proficiency_right {
+  width: 800px;
   height: 600px;
 }
-.animation{
-  width:100%;
+.animation {
+  width: 100%;
   height: 100%;
 }
-.level p{
-  font-size:25px;
-  color:#fff;
+.level p {
+  font-size: 25px;
+  color: #fff;
   letter-spacing: 3px;
 }
-.level_line{
-  width:500px;
+.level_line {
+  width: 500px;
+}
+
+@media screen and (max-width: 1264px) {
+  .Proficiency_left h1 {
+    margin: 0px;
+    font-size: 50px;
+    color: #08fdd8;
+  }
+
+  .level p {
+    font-size: 22px;
+    color: #fff;
+    letter-spacing: 3px;
+  }
+  .level .level_line {
+    width: 450px;
+  }
+
+  .Proficiency_left {
+    margin-right: 80px;
+  }
+
+  .Proficiency_right {
+    width: 800px;
+    height: 600px;
+  }
+  .animation {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 1198px) {
+  /* this only */
+  .level .level_line {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 1133px) {
+  /* this only */
+  .level p {
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 3px;
+  }
+
+  /* this only */
+  .level .level_line {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 1015px) {
+  /* this only */
+  .level p {
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 3px;
+  }
+
+  /* this only */
+  .level .level_line {
+    width: 350px;
+  }
+
+  /* this only */
+  .Proficiency_left {
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 999px) {
+  .level p {
+    font-size: 22px; /* this only */
+  }
+
+  /* this only */
+  .level .level_line {
+    width: 500px;
+  }
+
+  /* this only */
+  .Proficiency_left {
+    margin-right: 0px;
+  }
+
+  /* this only */
+
+  .Proficiency_right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 858px) {
+  .Proficiency_right {
+    display: none;
+  }
 }

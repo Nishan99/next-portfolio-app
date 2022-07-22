@@ -73,3 +73,13 @@ h1.education_heading {
   list-style: none;
   color:grey;
 }
+
+@media screen and (max-width:858px){
+  .education_left{
+    display: none;
+  }
+  .education {
+    height: auto;
+  }
+
+}

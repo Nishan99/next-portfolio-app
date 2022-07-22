@@ -1,10 +1,11 @@
 .proficiency {
-  height: 100vh;
+  height: auto;
   background: #1d1d1d;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0px 80px;
+  overflow: hidden !important;
 }
 .Proficiency_left {
   margin-right: 60px;
@@ -105,7 +106,58 @@
 
   /* this only */
   .level .level_line {
-    width: 500px;
+    width: 400px;
+  }
+
+  /* this only */
+  .Proficiency_left {
+    margin-right: 0px;
+  }
+
+  /* this only */
+
+  .Proficiency_right {
+    display: none;
+  }
+}
+@media screen and (max-width: 755px) {
+  .proficiency {
+    justify-content: center;
+    padding: 60px 80px;
+  }
+  .level p {
+    font-size: 22px; /* this only */
+  }
+
+  /* this only */
+  .level .level_line {
+    width: 300px;
+  }
+
+  /* this only */
+  .Proficiency_left {
+    margin-right: 0px;
+  }
+
+  /* this only */
+
+  .Proficiency_right {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .proficiency {
+    justify-content: center;
+    padding: 60px 80px;
+    /* margin-bottom: 100px; */
+  }
+  .level p {
+    font-size: 22px; /* this only */
+  }
+
+  /* this only */
+  .level .level_line {
+    width: 200px;
   }
 
   /* this only */

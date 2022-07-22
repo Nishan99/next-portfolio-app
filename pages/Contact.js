@@ -57,6 +57,7 @@ const Contact = () => {
                   name="name"
                   type="text"
                   value={userDetails.name}
+                  className={styles.user_name}
                   onChange={(e) =>
                     setUserDetails({ ...userDetails, name: e.target.value })
                   }

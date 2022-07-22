@@ -1,5 +1,6 @@
 .header{
-  height: 100vh;
+  /* height: 100vh; */
+  height: auto;
   background:  #1d1d1d;
   display: flex;
   justify-content: space-between;

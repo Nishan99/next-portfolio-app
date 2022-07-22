@@ -5,7 +5,8 @@
   align-items: space-between;
   padding:10px 80px;
   background: #1d1d1d;
-  height: 100vh;
+  /* height: 100vh; */
+  height: auto;
 }
 .education {
   display: flex;

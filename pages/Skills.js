@@ -1,9 +1,9 @@
 import { VscTerminalCmd } from "react-icons/vsc";
-import { AiFillHtml5 } from "react-icons/ai";
+import { AiFillGithub, AiFillHtml5 } from "react-icons/ai";
 import { DiCss3, DiNpm, DiNodejs } from "react-icons/di";
 import { FaSass, FaYarn, FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiExpress, SiNextdotjs } from "react-icons/si";
+import { SiExpress, SiMaterialui, SiNextdotjs, SiTailwindcss } from "react-icons/si";
 import { BsFillBootstrapFill,BsCheck } from "react-icons/bs";
 import Lottie from "lottie-react";
 import styles from "../styles/Skills.module.css";
@@ -61,6 +61,14 @@ const Skills = () => {
             Express
           </li>
           <li>
+            <SiTailwindcss  className={styles.stack_icon} />
+            Tailwind Css
+          </li>
+          <li>
+            <SiMaterialui  className={styles.stack_icon} />
+            Material Ui
+          </li>
+          <li>
             <DiNpm  className={styles.stack_icon} />
             Npm
           </li>
@@ -72,6 +80,7 @@ const Skills = () => {
             <VscTerminalCmd  className={styles.stack_icon} />
             Cmd
           </li>
+         
         </div>
         <ul className={styles.menu}>
         <li> <BsCheck className={styles.menu_icon}/> 

@@ -40,7 +40,7 @@ const Education = () => {
               <Image alt='Crimson Technical College' className={styles.study_img} src={crimson_img} />
             </div>
             <div className={styles.study_right}>
-              <p className={styles.date}>August 2017 - April 2015</p>
+              <p className={styles.date}>August 2017 - April 2020</p>
               <p className={styles.college}>Crimson Technical College</p>
               <p className={styles.std_level}>Diploma in Computer Engineering</p>
               <li>Devinagar, Butwal</li>

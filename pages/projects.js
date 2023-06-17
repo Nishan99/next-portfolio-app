@@ -10,6 +10,32 @@ const Projects=()=>{
         <h1>Projects</h1>
         <div className={styles.project_main}>
           <div className={styles.project_each}>
+            <h3>CarDetails | CarHub</h3>
+            <p className={styles.project_desc}>Cars list with their details...</p>
+              <p className={styles.project_title}>Technologies</p>
+            <div className={styles.project_icons}>
+            <li>
+            <AiFillHtml5 size="40px" className={styles.tech_icon} />
+            HTML5
+          </li>
+          <li>
+            <DiCss3 size="40px" className={styles.tech_icon} />
+            CSS3
+          </li>
+          <li>
+            <IoLogoJavascript size="40px" className={styles.tech_icon} />
+            Javascript
+          </li>
+          <li>
+            <FaReact size="40px" className={styles.tech_icon} />
+            Next.js
+          </li>
+            </div>
+            <Link href="https://next-carhub.vercel.app/">
+            <button className={styles.project_btn}>View Project</button>
+            </Link>
+          </div>
+          <div className={styles.project_each}>
             <h3>Dashboard Panel</h3>
             <p className={styles.project_desc}>Admin Panel where detail information is deplayed</p>
               <p className={styles.project_title}>Technologies</p>

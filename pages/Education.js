@@ -5,6 +5,7 @@ import line_animation from "../assets/line_animation.json";
 import Lottie from "lottie-react";
 import Image from "next/image";
 import islington_img from "../assets/islington_img.png";
+import londonmet_img from "../assets/london_met.png";
 import crimson_img from "../assets/crimson_img.jpg";
 import oxford_img from "../assets/oxford_img.jpg";
 
@@ -25,12 +26,12 @@ const Education = () => {
           <div className={styles.study_flex}>
           
             <div className={styles.study_left}>
-              <Image alt='islington college' className={styles.study_img} src={islington_img} />
+              <Image alt='islington college' className={styles.study_img} src={londonmet_img} />
             </div>
             <div className={styles.study_right}>
               <p className={styles.date}>September 2020 - April 2022</p>
-              <p className={styles.college}>Islington College</p>
-              <p className={styles.std_level}>Bachlor in Computing</p>
+              <p className={styles.college}>London Metropolitan University</p>
+              <p className={styles.std_level}>BSC in Computing</p>
               <li>Kamal Pokhari, Kathmandu</li>
             </div>
           </div>

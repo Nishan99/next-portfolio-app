@@ -12,72 +12,7 @@ const Projects = () => {
     <div className={styles.project} id="project">
       <h1>Projects</h1>
       <div className={styles.project_main}>
-        <div className={styles.project_each}>
-          <h3>Flexibble App</h3>
-          <p className={styles.project_desc}>Showcase your design portfolio here</p>
-          <p className={styles.project_title}>Technologies</p>
-          <div className={styles.project_icons}>
-            <li>
-              <SiNextdotjs size="40px" className={styles.tech_icon} />
-              Next 13
-            </li>
-            <li>
-              <GoGraph size="40px" className={styles.tech_icon} />
-              Grafbase
-            </li>
-            <li>
-              <SiPrisma size="40px" className={styles.tech_icon} />
-              Prisma
-            </li>
-            <li>
-              <GrGraphQl size="40px" className={styles.tech_icon} />
-              GraphQl
-            </li>
-           
-          </div>
-          <Link href="https://grafbase-flexibble-two.vercel.app/" passHref>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://grafbase-flexibble-two.vercel.app/"
-            >
-              <button className={styles.project_btn}>View Project</button>
-            </a>
-          </Link>
-        </div>
-        <div className={styles.project_each}>
-          <h3>CarDetails | CarHub</h3>
-          <p className={styles.project_desc}>Cars list with their details...</p>
-          <p className={styles.project_title}>Technologies</p>
-          <div className={styles.project_icons}>
-            <li>
-              <AiFillHtml5 size="40px" className={styles.tech_icon} />
-              HTML5
-            </li>
-            <li>
-              <DiCss3 size="40px" className={styles.tech_icon} />
-              CSS3
-            </li>
-            <li>
-              <IoLogoJavascript size="40px" className={styles.tech_icon} />
-              Javascript
-            </li>
-            <li>
-              <FaReact size="40px" className={styles.tech_icon} />
-              Next.js
-            </li>
-          </div>
-          <Link href="https://next-carhub.vercel.app/" passHref>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://next-carhub.vercel.app/"
-            >
-              <button className={styles.project_btn}>View Project</button>
-            </a>
-          </Link>
-        </div>
-        <div className={styles.project_each}>
+         <div className={styles.project_each}>
           <h3>Dashboard Panel</h3>
           <p className={styles.project_desc}>
             Admin Panel where detail information is deplayed
@@ -111,6 +46,73 @@ const Projects = () => {
             </a>
           </Link>
         </div>
+        <div className={styles.project_each}>
+          <h3>Flexibble App</h3>
+          <p className={styles.project_desc}>Showcase your design portfolio here</p>
+          <p className={styles.project_title}>Technologies</p>
+          <div className={styles.project_icons}>
+            <li>
+              <SiNextdotjs size="40px" className={styles.tech_icon} />
+              Next 13
+            </li>
+            <li>
+              <GoGraph size="40px" className={styles.tech_icon} />
+              Grafbase
+            </li>
+            <li>
+              <SiPrisma size="40px" className={styles.tech_icon} />
+              Prisma
+            </li>
+            <li>
+              <GrGraphQl size="40px" className={styles.tech_icon} />
+              GraphQl
+            </li>
+           
+          </div>
+          <Link href="https://grafbase-flexibble-two.vercel.app/" passHref>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://grafbase-flexibble-two.vercel.app/"
+            >
+              <button className={styles.project_btn}>View Project</button>
+            </a>
+          </Link>
+        </div>
+       
+        <div className={styles.project_each}>
+          <h3>CarDetails | CarHub</h3>
+          <p className={styles.project_desc}>Cars list with their details...</p>
+          <p className={styles.project_title}>Technologies</p>
+          <div className={styles.project_icons}>
+            <li>
+              <AiFillHtml5 size="40px" className={styles.tech_icon} />
+              HTML5
+            </li>
+            <li>
+              <DiCss3 size="40px" className={styles.tech_icon} />
+              CSS3
+            </li>
+            <li>
+              <IoLogoJavascript size="40px" className={styles.tech_icon} />
+              Javascript
+            </li>
+            <li>
+              <FaReact size="40px" className={styles.tech_icon} />
+              Next.js
+            </li>
+          </div>
+          <Link href="https://next-carhub.vercel.app/" passHref>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://next-carhub.vercel.app/"
+            >
+              <button className={styles.project_btn}>View Project</button>
+            </a>
+          </Link>
+        </div>
+        
        
       </div>
      
